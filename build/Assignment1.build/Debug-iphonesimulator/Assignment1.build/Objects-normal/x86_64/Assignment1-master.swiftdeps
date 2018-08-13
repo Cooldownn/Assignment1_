@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "6963a04b1c3b4ca47de09d388e1c2fec"
+build_time: [1534143033, 497354000]
+inputs:
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/MainVC.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/AppDelegate.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/NoteVC.swift": [1534143031, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/SettingVC.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/SetMethodAlarmVC.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/ReminderVC.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/TicTacToeVC.swift": [1534143031, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/AlarmVC.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/SetTimeAlarmVC.swift": [1534142660, 0]
+  "/Users/mac/Documents/Assignment_1_VNM/Assignment1_/Assignment1/Controller/MathVC.swift": [1534143031, 0]
