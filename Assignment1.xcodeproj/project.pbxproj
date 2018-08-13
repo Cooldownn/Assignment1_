@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2BDDBF211AB05100E55A0F /* TicTacToeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BDDBE211AB05100E55A0F /* TicTacToeVC.swift */; };
+		BF2BDDC1211AB06400E55A0F /* MathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BDDC0211AB06400E55A0F /* MathVC.swift */; };
+		BF2BDDC3211AB08000E55A0F /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BDDC2211AB08000E55A0F /* NoteVC.swift */; };
 		BF31431E211805180054AC0A /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31431D211805180054AC0A /* SettingVC.swift */; };
 		BF34E5BA21195C6300553D07 /* AlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34E5B921195C6300553D07 /* AlarmVC.swift */; };
 		BF5CB4102113F0B100CF0112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5CB40F2113F0B100CF0112 /* AppDelegate.swift */; };
@@ -15,12 +18,14 @@
 		BF5CB4172113F0B200CF0112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5CB4162113F0B200CF0112 /* Assets.xcassets */; };
 		BF5CB41A2113F0B200CF0112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5CB4182113F0B200CF0112 /* LaunchScreen.storyboard */; };
 		BF5CB427211407A100CF0112 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5CB426211407A100CF0112 /* ReminderVC.swift */; };
-		BF668E7621180DA400AE06C2 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668E7521180DA400AE06C2 /* WeatherVC.swift */; };
 		BF668E782118112F00AE06C2 /* SetTimeAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668E772118112F00AE06C2 /* SetTimeAlarmVC.swift */; };
 		BF668E7A2118114900AE06C2 /* SetMethodAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668E792118114900AE06C2 /* SetMethodAlarmVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF2BDDBE211AB05100E55A0F /* TicTacToeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeVC.swift; sourceTree = "<group>"; };
+		BF2BDDC0211AB06400E55A0F /* MathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathVC.swift; sourceTree = "<group>"; };
+		BF2BDDC2211AB08000E55A0F /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
 		BF31431D211805180054AC0A /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		BF34E5B921195C6300553D07 /* AlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVC.swift; sourceTree = "<group>"; };
 		BF5CB40C2113F0B100CF0112 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,7 +36,6 @@
 		BF5CB4192113F0B200CF0112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5CB41B2113F0B200CF0112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5CB426211407A100CF0112 /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
-		BF668E7521180DA400AE06C2 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		BF668E772118112F00AE06C2 /* SetTimeAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimeAlarmVC.swift; sourceTree = "<group>"; };
 		BF668E792118114900AE06C2 /* SetMethodAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMethodAlarmVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,10 +87,12 @@
 				BF5CB4112113F0B100CF0112 /* MainVC.swift */,
 				BF5CB426211407A100CF0112 /* ReminderVC.swift */,
 				BF31431D211805180054AC0A /* SettingVC.swift */,
-				BF668E7521180DA400AE06C2 /* WeatherVC.swift */,
 				BF668E772118112F00AE06C2 /* SetTimeAlarmVC.swift */,
 				BF668E792118114900AE06C2 /* SetMethodAlarmVC.swift */,
 				BF34E5B921195C6300553D07 /* AlarmVC.swift */,
+				BF2BDDBE211AB05100E55A0F /* TicTacToeVC.swift */,
+				BF2BDDC0211AB06400E55A0F /* MathVC.swift */,
+				BF2BDDC2211AB08000E55A0F /* NoteVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,13 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5CB4122113F0B100CF0112 /* MainVC.swift in Sources */,
-				BF668E7621180DA400AE06C2 /* WeatherVC.swift in Sources */,
 				BF5CB4102113F0B100CF0112 /* AppDelegate.swift in Sources */,
+				BF2BDDC3211AB08000E55A0F /* NoteVC.swift in Sources */,
 				BF31431E211805180054AC0A /* SettingVC.swift in Sources */,
 				BF668E7A2118114900AE06C2 /* SetMethodAlarmVC.swift in Sources */,
 				BF5CB427211407A100CF0112 /* ReminderVC.swift in Sources */,
+				BF2BDDBF211AB05100E55A0F /* TicTacToeVC.swift in Sources */,
 				BF34E5BA21195C6300553D07 /* AlarmVC.swift in Sources */,
 				BF668E782118112F00AE06C2 /* SetTimeAlarmVC.swift in Sources */,
+				BF2BDDC1211AB06400E55A0F /* MathVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
