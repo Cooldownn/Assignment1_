@@ -24,4 +24,12 @@ class AlarmVC: UIViewController {
     @IBAction func backtoAlarm(unwind: UIStoryboardSegue) {
         
         }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showSettingsSegue" {
+            if let settingVC = segue.destination as? SettingVC {
+                settingVC.alarmVC = self
+            }
+        }
+    }
 }

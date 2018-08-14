@@ -12,6 +12,8 @@ class SettingVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
 
     @IBOutlet weak var imageView: UIImageView!
     
+    var alarmVC: AlarmVC!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,19 +42,26 @@ class SettingVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
     
   @objc func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
-        
         imageView.image = image
-        
         picker.dismiss(animated: true, completion: nil)
+    
+        alarmVC.chooseImg.image = image
+    
+        self.dismiss(animated: true, completion: nil)
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationView = segue.destination as! AlarmVC
-        
-        destinationView.TransferImage = imageView.image
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let destinationView = segue.destination as! AlarmVC
+//
+//        destinationView.TransferImage = imageView.image
+//    }
+    
+    @IBAction func cancelBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
+    
 }
