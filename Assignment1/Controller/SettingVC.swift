@@ -49,4 +49,10 @@ class SettingVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationView = segue.destination as! AlarmVC
+        
+        destinationView.TransferImage = imageView.image
+    }
 }
