@@ -10,7 +10,6 @@ import UIKit
 
 class MainVC: UIViewController {
 
-    var test: String!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
