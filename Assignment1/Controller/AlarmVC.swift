@@ -11,8 +11,10 @@ import UIKit
 class AlarmVC: UIViewController {
 
     var TransferImage: UIImage!
+    @IBOutlet weak var alarmTable: UITableView!
     
     @IBOutlet weak var chooseImg: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +22,6 @@ class AlarmVC: UIViewController {
         chooseImg.image = TransferImage
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func backtoAlarm(unwind: UIStoryboardSegue) {
-        
-        }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSettingsSegue" {

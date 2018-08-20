@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF111B8D212A811F00C5A8A0 /* RepeatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF111B8C212A811F00C5A8A0 /* RepeatVC.swift */; };
+		BF111B8F212A812F00C5A8A0 /* PickSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF111B8E212A812F00C5A8A0 /* PickSongVC.swift */; };
 		BF2BDDBF211AB05100E55A0F /* TicTacToeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BDDBE211AB05100E55A0F /* TicTacToeVC.swift */; };
 		BF2BDDC1211AB06400E55A0F /* MathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BDDC0211AB06400E55A0F /* MathVC.swift */; };
 		BF2BDDC3211AB08000E55A0F /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BDDC2211AB08000E55A0F /* NoteVC.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF111B8C212A811F00C5A8A0 /* RepeatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatVC.swift; sourceTree = "<group>"; };
+		BF111B8E212A812F00C5A8A0 /* PickSongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickSongVC.swift; sourceTree = "<group>"; };
 		BF2BDDBE211AB05100E55A0F /* TicTacToeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeVC.swift; sourceTree = "<group>"; };
 		BF2BDDC0211AB06400E55A0F /* MathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathVC.swift; sourceTree = "<group>"; };
 		BF2BDDC2211AB08000E55A0F /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5CB4112113F0B100CF0112 /* MainVC.swift */,
+				BF111B8C212A811F00C5A8A0 /* RepeatVC.swift */,
 				BF5CB426211407A100CF0112 /* ReminderVC.swift */,
 				BF31431D211805180054AC0A /* SettingVC.swift */,
 				BF668E772118112F00AE06C2 /* SetTimeAlarmVC.swift */,
@@ -93,6 +98,7 @@
 				BF2BDDBE211AB05100E55A0F /* TicTacToeVC.swift */,
 				BF2BDDC0211AB06400E55A0F /* MathVC.swift */,
 				BF2BDDC2211AB08000E55A0F /* NoteVC.swift */,
+				BF111B8E212A812F00C5A8A0 /* PickSongVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,11 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF111B8D212A811F00C5A8A0 /* RepeatVC.swift in Sources */,
 				BF5CB4122113F0B100CF0112 /* MainVC.swift in Sources */,
 				BF5CB4102113F0B100CF0112 /* AppDelegate.swift in Sources */,
 				BF2BDDC3211AB08000E55A0F /* NoteVC.swift in Sources */,
 				BF31431E211805180054AC0A /* SettingVC.swift in Sources */,
 				BF668E7A2118114900AE06C2 /* SetMethodAlarmVC.swift in Sources */,
+				BF111B8F212A812F00C5A8A0 /* PickSongVC.swift in Sources */,
 				BF5CB427211407A100CF0112 /* ReminderVC.swift in Sources */,
 				BF2BDDBF211AB05100E55A0F /* TicTacToeVC.swift in Sources */,
 				BF34E5BA21195C6300553D07 /* AlarmVC.swift in Sources */,

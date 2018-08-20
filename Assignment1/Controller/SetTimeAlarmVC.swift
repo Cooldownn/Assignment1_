@@ -21,7 +21,7 @@ class SetTimeAlarmVC: UIViewController {
         performSegue(withIdentifier: "methodAlarmVCSegue", sender: self)
     }
     
-    @IBAction func backtoTime(unwind: UIStoryboardSegue) {
-        
+    @IBAction func cancelBtn (_ sender: AnyObject) {
+        self.dismiss(animated: true,completion: nil)
     }
 }
